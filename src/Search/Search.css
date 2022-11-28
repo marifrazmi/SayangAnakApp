@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .item-container1 {
+    margin-top: 20px;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .txt {
+      text-align: center;
+    }
+    
+    
+  .imgsearch{
+    margin: 30px;
+    width: 140px;
+    height: 140px;
+  }
+  
+  .span-search{
+    color: black;
+    margin-left: 4px;
+  }
+  
+  .search-name{
+    color: black;
+  }
+  
+  .search-input{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 15px;
+    text-transform: capitalize;
+
+  }
+  
+  .search-container{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-loading{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }

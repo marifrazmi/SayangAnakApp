@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic{
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.title{
+  float: left;
+  width: 100%;
+  font-weight: 700;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    border-radius: 25px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.about img{
+  padding: 40px;
+    border-radius: 50%;
+    width:50%;
+    height: 100%;
+    margin: 10px;
+}
+
+.about h1{
+  position: relative;
+  color: #141414;
+  text-justify: distribute;
+}
+
+.about h2{
+  position: relative;
+  color: #141414;
+  text-justify: distribute;
+  font-size: 25px;
+}
+
+  .bio{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #484d49;
+  }
+
+  .info{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+
+  .prak{
+    color: #F8F9F3;
+    margin-top: 10px;
+    font-size: 15px;
+  }
