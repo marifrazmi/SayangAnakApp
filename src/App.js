@@ -21,7 +21,7 @@ function App() {
     <>
       <header>
         <img src="/TOSA.png" alt="logo"/>
-        <a href="./Home" id="titleGroup">SayangAnak</a>
+        <a href="/Home" id="titleGroup">SayangAnak</a>
       </header>
       <div className="content">
         <Routes>
